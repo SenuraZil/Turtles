@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.buy{
+    width: 100%;
+    height: 50%;
+  
+
+    box-sizing: border-box;
+   
+}
+/*The background of the bos*/
+.buy .tickets{
+    color: aliceblue;
+    background-color: rgba(4, 107, 13, 0.833);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 40px;
+   
+}
+.Box{
+    width: 70%;
+    height: 75%;
+    padding: 50px;
+    
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.Box .info{
+    color: aliceblue;
+    background: rgb(4, 62, 73);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 30px;
+   
+}
+.topic{
+
+    color: black;
+    text-decoration: underline;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.type{
+    width: 30%;
+    background-color: blanchedalmond;
+    height: 30px;
+    font-size: 15px;
+    
+}
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continueButton{
+    background-color: rgb(139, 238, 238);
+    color: black;
+    width: 10%;
+    border-radius: 10%;
+    font-size: 14px;
+}
+.Back{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #94840aee 35%, #1f817c 65%);
+}
+.summary-section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#turtles
+{
+    background: linear-gradient(rgba(51, 60, 96, 0.5),#030e2f), url(Images/85.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-bottom-right-radius: 10%;
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+    float: left;
+}
+ul li a:hover{
+    color: rgb(12, 48, 82);
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+    font-size: 40px;
+}
+.box{
+    width: 80%;
+    height: 80%;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+}
+/*The background of the bos*/
+.box .info{
+    color: aliceblue;
+    background-color: rgba(0, 12, 20, 0.459);
+    padding: 40px;
+    line-height: 40px;
+    transition: .5s;
+    font-size: 30px;
+    border-radius: 5%;
+    margin-top: 6%;
+}
+/*the hover effects for the bos*/
+.box .infro:hover{
+    background-color: aqua;
+}
+
+ 

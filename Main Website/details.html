@@ -1,0 +1,158 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turtle Tickets - Details</title>
+  <link rel="stylesheet" href="/details.css">
+  <link rel="stylesheet" href="/css/intlTelInput.min.css">
+</head>
+
+<body>
+  <h1>Turtle Tickets</h1>
+  <img src="cover-photo.jpg" alt="Turtle Cover Photo" class="cover-photo">
+  
+  <div class="details-container">
+    <h2>Enter your details</h2>
+
+    <form id="detailsForm">
+      <label for="fullName">Full Name *</label>
+      <input type="text" id="fullName" required>
+
+      <label for="mobileNumber">Mobile Number *</label>
+      <div class="mobile-number-container">
+        <select id="countryCodeDropdown" class="country-code-dropdown"></select>
+        <input type="tel" id="mobileNumber" class="mobile-number" required>
+      </div>      
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" required>
+
+      <label for="confirmEmail">Confirm Email *</label>
+      <input type="email" id="confirmEmail" required>
+
+      <label for="gender">Gender</label>
+      <select id="gender">
+        <option value="">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <div class="summary-container">
+        <h2>Summary</h2>
+        <table id="summaryTable">
+          <!-- Summary table content will be generated dynamically -->
+      <!--  </table>
+        <p id="totalPayable">Total Payable: $0</p>
+      </div>
+
+      <div class="button-container">
+        <button type="submit" id="continueButton" disabled>Continue with purchase</button>
+      </div>
+    </form>
+  </div>
+  <!-- Include the intl-tel-input script -->
+ <!-- <script src="/js-as3/intlTelInput.min.js"></script>
+  <!-- Include your details.js script -->
+  <!--<script src="/js-as3/details.js"></script>
+</body>
+</html>
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <script src="details.js" defer></script>
+    <title>Details Page</title>
+</head>
+<body>
+  <center>
+
+
+  <div class="buy">
+    <div class="tickets">
+<h1>Plan Your Visit</h1>
+</div>
+</div>
+<div class="Back">
+<div class="Box">
+       
+  <div class="info">
+    <main>
+        
+            <h2 class="topic">Enter your details</h2>
+            <br>
+            <form id="details-form">
+                <label for="fullName">Full Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input class="type" type="text" id="fullName" name="fullName" required>
+                <br>
+                <br>
+                <label for="mobileNumber">Mobile Number&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp</label>
+              
+                    <select id="countryCode" name="countryCode">
+                        <option value="+1">+1 (USA)</option>
+                        <!-- Add more country options here -->
+                    </select>
+                    <input class="type"  type="tel" id="mobileNumber" name="mobileNumber" required>
+                
+                <br>
+                <br>
+                <label for="email">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input class="type"  type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="confirmEmail">Confirm Email &nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input class="type"  type="email" id="confirmEmail" name="confirmEmail" required>
+                <br>
+                <br>
+                <label for="gender">Gender &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <select class="type"  id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br>
+                <br>
+                <button class="continueButton" type="submit" id="continueBtn" disabled>Continue with purchase</button>
+            </form>
+        </section>
+        <br>
+        <br>
+        
+          <h2 class="topic">Summary Of Your Purchasing </h2>
+          <table id="sTable"  class="table">
+              <tr>
+                  <td>Date</td>
+                  <td id="sDate"></td>
+              </tr>
+              <tr>
+                  <td>Time</td>
+                  <td id="sTime"></td>
+              </tr>
+              <tr>
+                  <td>Duration</td>
+                  <td id="sDuration"></td>
+              </tr>
+              <tr>
+                  <td>Tickets</td>
+                  <td id="sTickets"></td>
+              </tr>
+              <tr>
+                  <td>Total Payable</td>
+                  <td id="sTotal"></td>
+              </tr>
+          </table>
+      </section>
+      
+    </main>
+  </div></div>
+</div>
+  </center>
+  
+</body>
+</html>
+ 

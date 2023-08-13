@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <script src="payment.js" defer></script>
+    <title>Payment Page</title>
+</head>
+<body>
+    <center>
+    <header>
+        <div class="buy">
+            <div class="tickets">
+        <h1>Plan Your Visit</h1>
+        </div>
+        </div>
+        <div class="Back">
+        <br>
+        <br>
+
+        <div class="Box">
+       
+            <div class="info">
+        
+    
+    <main>
+        <section class="payment-section">
+            <h2 class="topic">Payment Details</h2>
+            <br>
+            <br>
+            <form id="payment-form">
+                <label for="cardNumber">Card Number &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+                <input class="type" type="text" id="cardNumber" name="cardNumber" required>
+                <br>
+                <br>
+                <label for="expiryDate">Expiry Date &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+                <input class="type" type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+                <br>
+                <br>
+                <label for="cvc">CVC / CVV &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+                <input class="type" type="text" id="cvc" name="cvc" required>
+                <br>
+                <br>
+                <label for="nameOnCard">Name on Card &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+                <input class="type" type="text" id="nameOnCard" name="nameOnCard" required>
+                <br>
+                <br>
+                <button class="continueButton" type="submit" id="payButton" disabled>Pay (<span id="payAmount"></span>)</button>
+            </form>
+        </section>
+        
+        <section class="summary-section">
+            <!-- Display summary table here -->
+        </section>
+    </main>
+            </div>
+        </div>
+        </div>
+    
+    
+    </center>
+    
+</body>
+</html>

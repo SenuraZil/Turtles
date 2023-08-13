@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Tickets</title>
+<link rel="stylesheet" href="ticekts.css">
+</head>
+<body>
+  <center>
+    <div class="buy">
+      <div class="tickets">
+  <h1>Plan Your Visit</h1>
+  </div>
+  </div>
+  <div class="Back">
+  <br>
+  <br>
+  <br>
+  
+  <div class="Box">
+       
+    <div class="info">
+  <section id="dates">
+    <h2 class="Topic">Select Date For Your Visit</h2>
+    <br>
+    <input class="Calender" type="date" id="visitDate">
+  </section>
+  <br>
+  <br>
+<!-- HTML (index.html) -->
+<section id="guests">
+  <h2 class="Topic">Select Tickets For Your Visit</h2>
+  <br>
+  <div class="category">
+    <label class="type" for="slAd">Sri Lankan Adult&nbsp&nbsp&nbsp:</label>
+   
+      <input class="input" type="number" id="slAd" min="0" value="0">
+      <button class="increment">+</button>
+      <button class="decrement">-</button>
+   
+  </div>
+  <br>
+  <div class="category">
+    <label class="type" for="slCh">Sri Lankan Child&nbsp&nbsp&nbsp:</label>
+      <input class="input" type="number" id="slCh" min="0" value="0">
+      <button class="increment">+</button>
+      <button class="decrement">-</button>
+  
+  </div>
+  <br>
+  <div class="category">
+    <label class="type" for="fad">Foreign Adult &nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+   
+      <input class="input" type="number" id="fad" min="0" value="0">
+      <button class="increment">+</button>
+      <button class="decrement">-</button>
+ 
+  </div>
+  <br>
+  <div class="category">
+    <label class="type" for="fch">Foreign Child&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+    
+      <input class="input" type="number" id="fch" min="0" value="0">
+      <button class="increment">+</button>
+      <button class="decrement">-</button>
+    
+  </div>
+  <br>
+  <div class="category">
+    <label class="type" for="infant">Infant &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+   
+      <input class="input" type="number" id="infant" min="0" value="0">
+      <button class="increment">+</button>
+      <button class="decrement">-</button>
+    
+  </div>
+</section>
+<br>
+<br>
+
+
+  <section id="time">
+    <h2 class="Topic">Select A Time For Your Visit</h2>
+    <br>
+    <label for="based time " class="type">Duration &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+    
+    <select id="based time "  class="select">
+      <option value="07-08">07.00 am - 08.00 am</option>
+      <option value="08-09">08.00 am - 09.00 am</option>
+      <!-- Add other time slots here -->
+      <option value="09-10">09.00 am - 10.00 am</option>
+      <option value="10-11">10.00 am - 11.00 am (Peak)</option>
+      <option value="11-12">11.00 am - 12.00 pm</option>
+      <option value="12-01">12.00 pm - 01.00 pm</option>
+      <option value="01-02">01.00 pm - 02.00 pm</option>
+      <option value="02-03">02.00 pm - 03.00 pm</option>
+      <option value="03-04">03.00 pm - 04.00 pm</option>
+      <option value="04-05">04.00 pm - 05.00 pm</option>
+      <option value="05-06">05.00 pm - 06.00 pm (Peak)</option>
+    </select>
+  </section>
+  <br>
+  <br>
+
+  <section id="pricing">
+    <h2 class="Topic">Price Table For Each Age</h2>
+    <br>
+    
+    <table class="table">
+      <tr>
+        <th class="th">Ticket Type</th>
+        <th class="th">Normal Hour Charge</th>
+        <th class="th">Peak Hour Charge</th>
+      </tr>
+      
+      <tr>
+        <td>Sri Lankan Adult :&nbsp&nbsp</td>
+        <td>$4</td>
+        <td>$6</td>
+      </tr>
+      <tr>
+        <td>Sri Lankan Child :&nbsp&nbsp</td>
+        <td>$2</td>
+        <td>$3</td>
+      </tr>
+      <tr>
+        <td>Foreign Adult &nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp</td>
+        <td>$10</td>
+        <td>$13</td>
+      </tr>
+      <tr>
+        <td>Foreign Child &nbsp&nbsp&nbsp&nbsp :&nbsp&nbsp</td>
+        <td>$5</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>Infant :</td>
+        <td>Free</td>
+        <td>Free</td>
+      </tr>
+    </table>
+  </section>
+  <br>
+  <br>
+
+  <section id="summary">
+    <h2 class="Topic">Summary Of Your Purchasing</h2>
+    <table class="table">
+      <tr>
+        <td>Date</td>
+        <td id="sDate"></td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td id="sTime"></td>
+      </tr>
+      <tr>
+        <td>Duration</td>
+        <td id="sDuration"></td>
+      </tr>
+      <tr>
+        <td>Tickets</td>
+        <td id="sTickets"></td>
+      </tr>
+      <tr>
+        <td>Total Payable</td>
+        <td id="sTotal"></td>
+      </tr>
+    </table>
+
+
+    
+      <button class="continueButton" id="continueButton" disabled>Continue with purchase</button>
+    
+    
+  </section>
+    </div>
+    </div>
+  </div>
+
+  <script src="tickets.js"></script>
+
+  
+<script>
+  // Redirect to the Details page
+  const continueButton = document.getElementById("continueButton");
+  continueButton.addEventListener("click", function () {
+    window.location.href = "details.html"; // Update the path accordingly
+  });
+</script>
+
+</center>
+
+
+</body>
+</html>
+
+
+

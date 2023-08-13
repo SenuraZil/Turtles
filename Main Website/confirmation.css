@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.Box{
+    width: 70%;
+    height: 75%;
+    padding: 50px;
+    
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.Box .info{
+    color: aliceblue;
+    background: rgb(4, 62, 73);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 30px;
+   
+}
+.topic{
+
+    color: black;
+    text-decoration: underline;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.p{
+    color: rgb(247, 247, 247);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #168a8eee 35%, #6a0c54 65%);
+}

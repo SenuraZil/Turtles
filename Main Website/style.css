@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#turtles
+{
+        background: linear-gradient(rgba(0,0,0,0.5),#37687d), url(Images/5.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        
+        
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+   
+    border-bottom-right-radius: 10%;
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    float: left;
+}
+ul li a:hover{
+    color: rgb(12, 48, 82);
+    
+    
+}
+.search{
+     width: 330px;
+     float: left;
+     margin-left: 600px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(30, 73, 95);
+    margin-top:33px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(15, 88, 91);
+    border: 2px solid rgb(31, 120, 122);
+    margin-top: 33px;
+    color: aliceblue;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+}
+.par{
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: 'arial';
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.h1{ 
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-left: 2%;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+
+}   
+.cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(34, 186, 181);
+    border: none;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: azure;
+}
+.content span{
+    color: rgb(92, 247, 239);
+}
+.Sri{
+    font-family: Arial;
+    font-size: 40px;
+    color: rgb(23, 96, 96);
+
+}
+.content2{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+}
+.h2{
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    margin-left: 67%;
+    margin-top: -41%;
+    letter-spacing: 2px; 
+}
+.par3{
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: 'arial';
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+    margin-left: 65%;
+    height: 90%;
+}
+
+
+
+
+#Explore-turtles
+{
+    background: linear-gradient(rgba(0,0,0,0.5),#050526), url(Images/6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+.Explore-logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-bottom-right-radius: 10%;
+}
+.Explore-menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+   
+}
+
+.Explore-menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Explore-menu ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: relative;
+}
+.Explore-menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+    float: left;
+}
+.Explore-menu ul li a:hover{
+    color: rgb(12, 48, 82);
+    
+}
+
+.Explore-box{
+    width: 80%;
+    height: 75%;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.Explore-box .Explore-info{
+    color: aliceblue;
+    background-color: rgba(0, 12, 20, 0.258);
+    padding: 40px;
+    line-height: 50px;
+    transition: .5s;
+    font-size: 30px;
+    border-radius: 5%;
+}
+
+
+/*COURSE*/
+.Explore-course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}.Explore-h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.Explore-p{
+    color: #053b41;
+    font-size:  30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: Brush Script MT;
+}
+.Explore-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Explore-course-col{
+    flex-basis: 31%;
+    background: #094255;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+.Explore-h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 35px;
+    font-family: Brush Script MT;
+}
+.Explore-course-col:hover{
+    box-shadow: 0 0 200px 0px rgb(0, 0, 0);
+
+}
+.Explore-p1{
+    font-size: 20px;
+    color: #000000;
+    font-family: Arial;
+
+}
+@media(max-width: 700px){
+    .Explore-row{
+        flex-direction: column;
+    }
+
+}
+.Explore-h1{
+    font-family: Brush Script MT;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    
+}
+.Explore-h1:hover{
+    color: #014c6b;
+    text-decoration: underline
+}
+.Explore-cn{
+    width: 160px;
+    height: 40px;
+    background: rgba(26, 174, 233, 0.944);
+    border: none;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Explore-IMG:hover{
+    box-shadow: 0 0 40px 0px rgba(89, 195, 240, 0.826);
+}
+.Explore-body{
+    background-color: rgb(22, 132, 196);
+}
+.Explore-Topic{
+    font-family: Brush Script MT;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    
+}
+.Explore-m2{
+    font-family: Brush Script MT;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.Explore-cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(34, 186, 181);
+    border: none;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Explore-cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.Explore-Footer{
+    background-color: #122542;
+}
+.Explore-footerContainer{
+    width: 90%;
+    padding: 70px 30px 20px;
+}
+.Explore-socialicons{
+    display: flex;
+    justify-content: center;
+}
+.Explore-socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 50%;
+}
+.Explore-socialicons a i{
+    font-size: 2em;
+    color: #000000;
+    opacity: 0.9;
+}
+
+/*Hover Effect on Social Media Icon*/
+.Explore-socialicons a:hover{
+    background-color: aqua;
+    transition: o.5s;
+}
+.Explore-socialicons a:hover i{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.Explore-footerBottom{
+    background-color: #053758;
+    padding: 20px;
+    text-align: center;
+}
+.Explore-footerBottom p{
+    color: aliceblue;
+}
+.Explore-designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#turtles
+{
+    background: linear-gradient(rgba(51, 60, 96, 0.5),#030e2f), url(Images/52.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-bottom-right-radius: 10%;
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+    float: left;
+}
+ul li a:hover{
+    color: rgb(12, 48, 82);
+}
+
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+    font-size: 40px;
+}
+.box{
+    width: 80%;
+    height: 75%;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.box .info{
+    color: aliceblue;
+    background-color: rgba(0, 12, 20, 0.378);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 30px;
+    border-radius: 5%;
+}
+/*the hover effects for the bos*/
+.box .infro:hover{
+    background-color: aqua;
+}
+.box .info .Img{
+   
+    border-radius: 3%;
+    margin-top: -80%;
+}
+.box .info .Map{
+    
+    border: #000000;
+    border-radius: 3%;
+    
+
+    
+
+}
+.box .info .IMG{
+    margin-top: -700px;
+    border-radius: 3%;
+}
+.Types{
+    margin-left: 35%;
+   
+}
+body{
+    background-color: rgb(22, 132, 196);;
+}
+.Categories{
+    margin: 150px auto;
+    width: 70%;
+    
+}
+.cat{
+    color: aliceblue;
+}
+.cat h2{
+    font-size: 50px;
+    color: rgb(7, 64, 70);
+}
+.cat p{
+    font-size: 30px;
+}
+.box2 .IMG{
+    float: left;
+    margin-right: 5px;
+    border-radius: 3%;
+}
+.h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Brush Script MT;
+    color: #000000;
+}
+.h1:hover{
+    
+        color: #014c6b;
+        text-decoration: underline;
+}
+.p{
+    color: #053b41;
+    font-size:  30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: Brush Script MT;
+}
+.box2{
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 12, 20, 0.378);;
+    position: relative;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+}
+.cat2{
+    color: aliceblue;
+}
+.cat2 h2{
+    font-size: 50px;
+    color: rgb(7, 64, 70);
+}
+.cat2 p{
+    font-size: 30px;
+}
+.box2 .IMG2{
+    float: right;
+    margin-right: 5px;
+    border-radius: 3%;
+}
+.h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Brush Script MT;
+    color: #000000;
+}
+.cat3{
+    color: aliceblue;
+}
+.cat3 h2{
+    font-size: 50px;
+    color: rgb(7, 64, 70);
+}
+.cat3 p{
+    font-size: 30px;
+}
+.box2 .IMG3{
+    float: left;
+    margin-right: 5px;
+    border-radius: 3%;
+}
+.cat4{
+    color: aliceblue;
+}
+.cat4 h2{
+    font-size: 50px;
+    color: rgb(7, 64, 70);
+}
+.cat4 p{
+    font-size: 30px;
+}
+.box2 .IMG4{
+    float: right;
+    margin-right: 5px;
+    border-radius: 3%;
+}
+.cat5{
+    color: aliceblue;
+}
+.cat5 h2{
+    font-size: 50px;
+    color: rgb(7, 64, 70);
+}
+.cat5 p{
+    font-size: 30px;
+}
+.box2 .IMG5{
+    float: left;
+    margin-right: 5px;
+    border-radius: 3%;
+}
+.h43{
+    font-family: Brush Script MT;
+    font-size: 70px;
+}
+.h43 a{
+    text-decoration: none;
+    color: rgb(18, 110, 108);
+    font-family: Brush Script MT;
+    
+    transition: o.4s ease-in-out;
+}
+.h43 a:hover{
+    color: #014c6b;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: #000000;
+    opacity: 0.9;
+}
+footer{
+    background-color: #122542 ;
+}
+.footerContainer{
+    width: 90%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: #000000;
+    opacity: 0.9;
+}
+
+/*Hover Effect on Social Media Icon*/
+.socialicons a:hover{
+    background-color: aqua;
+    transition: o.5s;
+}
+.socialicons a:hover i{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.footerBottom{
+    background-color: #053758;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: aliceblue;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+#Threats-turtles
+{
+    background: linear-gradient(rgba(0,0,0,0.5),#13111089), url(Images/79.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+.Threats-logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-bottom-right-radius: 10%;
+}
+.Threats-menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+   
+}
+.Threats-menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Threats-menu ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: relative;
+}
+.Threats-menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+    float: left;
+}
+.Threats-menu ul li a:hover{
+    color: rgb(12, 48, 82);
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+    font-size: 40px;
+}
+.Threats-box{
+    width: 80%;
+    height: 75%;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.Threats-box .Threats-info{
+    color: aliceblue;
+    background-color: rgba(0, 12, 20, 0.222);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 30px;
+    border-radius: 5%;
+}
+/*the hover effects for the bos*/
+.Threats-box .Threats-info:hover{
+    background-color: aqua;
+}
+.Threats-Types{
+    margin-left: 35%
+}
+    .Threats-Categories{
+        margin: 150px auto;
+        width: 70%;
+        
+    }
+    .Threats-cat{
+        color: aliceblue;
+    }
+    .Threats-cat h2{
+        font-size: 50px;
+        color: rgb(7, 64, 70);
+    }
+    .Threats-cat p{
+        font-size: 30px;
+    }
+    .Threats-box2 .Threats-IMG{
+        float: left;
+        margin-right: 5px;
+        border-radius: 3%;
+    }
+    .Threats-h1{
+        font-size: 60px;
+        font-weight: 600;
+        font-family: Brush Script MT;
+        color: #000000;
+    }
+    .Threats-h1:hover{
+        
+            color: #014c6b;
+            text-decoration: underline;
+    }
+    .Threats-p{
+        color: #053b41;
+        font-size:  30px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+        font-family: Brush Script MT;
+    }
+    .Threats-box2{
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 12, 20, 0.378);;
+        position: relative;
+        margin-left: 70px;
+        margin-right: 70px;
+        border-radius: 20px;
+    }
+    .Threats-cat2{
+        color: aliceblue;
+    }
+    .Threats-cat2 h2{
+        font-size: 50px;
+        color: rgb(7, 64, 70);
+    }
+    .Threats-cat2 p{
+        font-size: 30px;
+    }
+    .Threats-box2 .Threats-IMG2{
+        float: right;
+        margin-right: 5px;
+        border-radius: 3%;
+    }
+    .Threats-h1{
+        font-size: 60px;
+        font-weight: 600;
+        font-family: Brush Script MT;
+        color: #000000;
+    }
+    .Threats-cat3{
+        color: aliceblue;
+    }
+    .Threats-cat3 h2{
+        font-size: 50px;
+        color: rgb(7, 64, 70);
+    }
+    .Threats-cat3 p{
+        font-size: 30px;
+    }
+    .Threats-box2 .Threats-IMG3{
+        float: left;
+        margin-right: 5px;
+        border-radius: 3%;
+    }
+    .Threats-cat4{
+        color: aliceblue;
+    }
+    .Threats-cat4 h2{
+        font-size: 50px;
+        color: rgb(7, 64, 70);
+    }
+    .Threats-cat4 p{
+        font-size: 30px;
+    }
+    .Threats-box2 .Threats-IMG4{
+        float: right;
+        margin-right: 5px;
+        border-radius: 3%;
+    }
+    .Threats-cat5{
+        color: aliceblue;
+    }
+    .Threats-cat5 h2{
+        font-size: 50px;
+        color: rgb(7, 64, 70);
+    }
+    .Threats-cat5 p{
+        font-size: 30px;
+    }
+    .Threats-box2 .Threats-IMG5{
+        float: left;
+        margin-right: 5px;
+        border-radius: 3%;
+    }
+    
+.Threats-body{
+    background-color: rgb(22, 132, 196);;
+}
+.Threats-footer{
+    background-color: #122542;
+}
+.Threats-footerContainer{
+    width: 90%;
+    padding: 70px 30px 20px;
+}
+.Threats-socialicons{
+    display: flex;
+    justify-content: center;
+}
+.Threats-socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 50%;
+}
+.Threats-socialicons a i{
+    font-size: 2em;
+    color: #000000;
+    opacity: 0.9;
+}
+
+/*Hover Effect on Social Media Icon*/
+.Threats-socialicons a:hover{
+    background-color: aqua;
+    transition: o.5s;
+}
+.Threats-socialicons a:hover i{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.Threats-footerBottom{
+    background-color: #053758;
+    padding: 20px;
+    text-align: center;
+}
+.Threats-footerBottom p{
+    color: aliceblue;
+}
+.Threats-designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

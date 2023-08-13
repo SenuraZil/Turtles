@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ #turtles
+ {
+     background: linear-gradient(rgba(0,0,0,0.5),#010514), url(Images/89.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     
+     
+ }
+ .logo{
+     width: 150px;
+     height: 100px;
+     margin: auto;
+     float: left;
+     border-bottom-right-radius: 10%;
+ }
+ .menu{
+     width: 450px;
+     float: left;
+     height: 70px;
+    
+ }
+ ul{
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ ul li{
+     list-style: none;
+     margin-left: 150px;
+     margin-top: 27px;
+     font-size: 14px;
+     padding: 8px 12px;
+     position: relative;
+ }
+ ul li a{
+     text-decoration: none;
+     color: aliceblue;
+     font-family: arial;
+     font-weight: bold;
+     transition: o.4s ease-in-out;
+     float: left;
+ }
+ ul li a:hover{
+     color: rgb(12, 48, 82);
+ }
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #1f7a7a 65%, #163150 35%);
+
+}
+
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27a7ae;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #052e45;
+}
+footer{
+  background-color: #122542;
+}
+.footerContainer{
+  width: 90%;
+  padding: 70px 30px 20px;
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: azure;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicons a i{
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+/*Hover Effect on Social Media Icon*/
+.socialicons a:hover{
+  background-color: aqua;
+  transition: o.5s;
+}
+.socialicons a:hover i{
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+
+.footerBottom{
+  background-color: #053758;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: aliceblue;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+/*COURSE*/
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+
+ 
+}.h78{
+  font-size: 36px;
+  font-weight: 600;
+}
+.p{
+  color: #053b41;
+  font-size:  30px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  font-family: Brush Script MT;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col{
+  flex-basis: 31%;
+  background: #094255;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  
+}
+.h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 35px;
+  font-family: Brush Script MT;
+}
+.course-col:hover{
+  box-shadow: 0 0 100px 0px rgb(0, 0, 0);
+
+}
+
+@media(max-width: 700px){
+  .row{
+      flex-direction: column;
+  
+  }
+}
+.h78{
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Brush Script MT;
+  color: #000000;
+}
+.h78:hover{
+  color: #014c6b;
+  text-decoration: underline;
+}
+.IMG:hover{
+  box-shadow: 0 0 40px 0px rgb(99, 139, 156);
+}
+.IMG{
+     border-radius: 10px;
+}
+.content span{
+  color: rgb(92, 247, 239);
+}
+
+.h1{ 
+  font-family: 'Times New Roman';
+  font-size: 100px;
+  
+  margin-top: 9%;
+  letter-spacing: 2px;
+  color: azure;
+
+}
+body{
+  background-color: rgb(22, 132, 196);
+}
+@media only screen and(max-width: 992px){
+  
+}

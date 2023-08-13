@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.buy{
+    width: 100%;
+    height: 50%;
+  
+
+    box-sizing: border-box;
+   
+}
+/*The background of the bos*/
+.buy .tickets{
+    color: aliceblue;
+    background-color: rgba(4, 107, 13, 0.833);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 40px;
+   
+}
+.increment{
+    width: 30px;
+    border-radius: 20%;
+    background-color: rgba(23, 107, 105, 0.748);
+}
+.decrement{
+    width: 30px;
+    border-radius: 20%;
+    background-color: rgba(170, 29, 7, 0.495);
+}
+.Box{
+    width: 70%;
+    height: 75%;
+    padding: 50px;
+    
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.Box .info{
+    color: aliceblue;
+    background: rgb(4, 62, 73);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 30px;
+   
+}
+.Topic{
+
+    color: black;
+    text-decoration: underline;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.Calender{
+    width: 30%;
+    height: 20%;
+    border-radius: 13%;
+    background-color: blanchedalmond;
+    color: rgb(77, 7, 7);
+}
+.type{
+    color: rgb(247, 247, 247);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.input{
+       width: 10%;
+       background-color: blanchedalmond;
+}
+.select{
+    width:17%;
+    background-color: blanchedalmond;
+}
+.th{
+    color: black;
+    text-decoration: underline;
+}
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Back{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #94840aee 35%, #1f817c 65%);
+}
+.continueButton{
+    background-color: rgb(139, 238, 238);
+    color: black;
+    width: 10%;
+    border-radius: 10%;
+}
